@@ -1,4 +1,4 @@
-module github.com/codeblocktz/pg-go
+module github.com/codeblocktz/pg
 
 go 1.18
 
