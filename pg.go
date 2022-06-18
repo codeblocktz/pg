@@ -75,7 +75,7 @@ func (pg PG) RequestUssdPush(input UssdPushRequest) (map[string]interface{}, boo
 		fmt.Println(decodeErr.Error())
 	}
 
-	if res.StatusCode != 200 {
+	if res.StatusCode != 201 {
 		return pushResult, false
 	}
 
